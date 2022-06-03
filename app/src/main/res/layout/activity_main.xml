@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnAdmin"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1"
+                android:background="#97876A05"
+                android:text="Admin"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnCount"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="#97876A05"
+                android:text="Count "
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearArabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/first"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearenglish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/secondenglish"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

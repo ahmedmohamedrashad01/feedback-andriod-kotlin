@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1043949009701",
+    "firebase_url": "https://dopamine-186c8.firebaseio.com",
+    "project_id": "dopamine-186c8",
+    "storage_bucket": "dopamine-186c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043949009701:android:c1cf3610c5187170af38cc",
+        "android_client_info": {
+          "package_name": "com.example.salon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043949009701-6ur8l0bb9picojjt64tp1mjjvlqtcvj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salon",
+            "certificate_hash": "c850ff391bfcc3c9175765fd414f078a1a2d4f55"
+          }
+        },
+        {
+          "client_id": "1043949009701-l41k6j2d6k1ca6d4ql1thov3fs8j6hhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaVCmo611_t6S6pm6z0fHQZTdIndfmHB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043949009701-l41k6j2d6k1ca6d4ql1thov3fs8j6hhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
